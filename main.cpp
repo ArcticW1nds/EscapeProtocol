@@ -7,3 +7,8 @@
 #include <queue>
 #include <stack>
 #include <cmath>
+
+int main {
+
+    return 0;
+}
