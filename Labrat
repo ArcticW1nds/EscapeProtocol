@@ -1,0 +1,10 @@
+#ifndef LABRAT_HPP
+#define LABRAT_HPP
+
+class Labrat {
+private:
+    
+};
+
+
+#endif //LABRAT_HPP
