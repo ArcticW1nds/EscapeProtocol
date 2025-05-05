@@ -1,28 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
 #include <string>
-#include <unordered_map>
-#include <unordered_set>
-#include <queue>
-#include <stack>
-#include <cmath>
+#include "JRPG.hpp"
+#include "maze.hpp"
 
 int main() {
+    std::cout << "(1) Attack" << std::endl;
+    std::cout << "(2) Skill(magic)" << std::endl;
+
+
+    int AorS = getValidatedInput(1, 2);
+    std::cout << AorS;
 
     return 0;
-}
-
-void takeMazeTurn() {
-	//turn
-	//rat moves
-	//check if rat is out of maze
-	// 
-	//scientist gains money
-	//scietist does one of two actions
-	//place owl(air strike)
-	//place cheese(force rat to move toward it)
-	//
-
-
 }
