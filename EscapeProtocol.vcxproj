@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="JRPG.hpp" />
     <ClInclude Include="maze.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JRPG.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="maze.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
