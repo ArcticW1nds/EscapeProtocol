@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LabRat.hpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.hpp",
+              "RelativeDocumentMoniker": "LabRat.hpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.hpp",
+              "RelativeToolTip": "LabRat.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T14:27:10.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "maze.hpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.hpp",
+              "RelativeDocumentMoniker": "maze.hpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.hpp",
+              "RelativeToolTip": "maze.hpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T14:24:17.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

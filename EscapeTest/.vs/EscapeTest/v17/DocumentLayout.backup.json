@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Combatant.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Combatant.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Combatant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Combatant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\LabRat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\LabRat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Scientist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Scientist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\EscapeTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\EscapeTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Scientist.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Scientist.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\JRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\JRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\JRPG.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\JRPG.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Combatant.cpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Combatant.cpp",
+              "RelativeDocumentMoniker": "EscapeTest\\Combatant.cpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Combatant.cpp",
+              "RelativeToolTip": "EscapeTest\\Combatant.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T04:14:45.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Combatant.hpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Combatant.hpp",
+              "RelativeDocumentMoniker": "EscapeTest\\Combatant.hpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Combatant.hpp",
+              "RelativeToolTip": "EscapeTest\\Combatant.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T00:31:04.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scientist.hpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Scientist.hpp",
+              "RelativeDocumentMoniker": "EscapeTest\\Scientist.hpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Scientist.hpp",
+              "RelativeToolTip": "EscapeTest\\Scientist.hpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T00:28:36.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scientist.cpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Scientist.cpp",
+              "RelativeDocumentMoniker": "EscapeTest\\Scientist.cpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\Scientist.cpp",
+              "RelativeToolTip": "EscapeTest\\Scientist.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T00:28:02.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LabRat.cpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\LabRat.cpp",
+              "RelativeDocumentMoniker": "EscapeTest\\LabRat.cpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\LabRat.cpp",
+              "RelativeToolTip": "EscapeTest\\LabRat.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T00:26:58.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LabRat.hpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\LabRat.hpp",
+              "RelativeDocumentMoniker": "EscapeTest\\LabRat.hpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\LabRat.hpp",
+              "RelativeToolTip": "EscapeTest\\LabRat.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T00:27:31.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JRPG.hpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\JRPG.hpp",
+              "RelativeDocumentMoniker": "EscapeTest\\JRPG.hpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\JRPG.hpp",
+              "RelativeToolTip": "EscapeTest\\JRPG.hpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T00:30:15.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JRPG.cpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\JRPG.cpp",
+              "RelativeDocumentMoniker": "EscapeTest\\JRPG.cpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\JRPG.cpp",
+              "RelativeToolTip": "EscapeTest\\JRPG.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T00:29:44.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EscapeTest.cpp",
+              "DocumentMoniker": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\EscapeTest.cpp",
+              "RelativeDocumentMoniker": "EscapeTest\\EscapeTest.cpp",
+              "ToolTip": "C:\\Users\\ineed\\source\\repos\\EscapeTest\\EscapeTest\\EscapeTest.cpp",
+              "RelativeToolTip": "EscapeTest\\EscapeTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T00:25:38.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
