@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JRPG.cpp" />
+    <ClCompile Include="LabRat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maze.cpp" />
   </ItemGroup>
