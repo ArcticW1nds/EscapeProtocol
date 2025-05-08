@@ -13,7 +13,7 @@ public:
     void move(char direction, const Maze& maze);
     void findPosition(const Maze& maze);
    // void dealDamage(Combatant* opponent, int baseDamage);
-
+    bool atGoal(const Maze& maze) const;
 private:
     int x;
     int y;

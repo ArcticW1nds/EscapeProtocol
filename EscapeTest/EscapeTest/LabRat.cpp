@@ -73,6 +73,7 @@ void LabRat::findPosition(const Maze& maze) {
             if (maze.maze1[i][j] == 2) {
                 x = i;
                 y = j;
+                maze.maze1[i][j] = 9;
                 return;
             }
         }
@@ -94,9 +95,15 @@ void LabRat::move(char direction, const Maze& maze)
         return;
     }
 
+    bool LabRat::atGoal(const Maze & maze) const {
+        return maze.maze1[x][y] == 3;
+    }
+
     if (maze.isWalkable(newX, newY)) {
+        maze.maze1[x][y] = 0;
         x = newX;
         y = newY;
+        maze.maze1[x][y] = 9;
         std::cout << "Moved to (" << x << ", " << y << ")\n";
     }
     else {

@@ -16,13 +16,15 @@ void Maze::printMaze() const {
                 std::cout << " "; // Path
                 break;
             case 2:
-                std::cout << "R"; //Rat
+                std::cout << "S"; //Start
                 break;
             case 3:
                 std::cout << "E"; // Exit
                 break;
+            case 9:
+                std::cout << "R"; // Rat
             default:
-                std::cout << "?"; // Unexpected
+                //std::cout << "?"; // Unexpected
                 break;
             }
         }

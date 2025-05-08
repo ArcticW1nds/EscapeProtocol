@@ -10,10 +10,17 @@ int main() {
     //Scientist cornifer(120, 50, 4);
     //(&rat, &cornifer);
 
-    maze.printMaze();
+    char input;
     rat.findPosition(maze);
-    rat.move('w', maze);
-    maze.printMaze();
+    while (true) {
+        system("cls");
+        maze.printMaze();
+        std::cout << "Move (w/a/s/d, q to quit): ";
+        std::cin >> input;
+        if (input == 'q') break;
+
+        rat.move(input, maze);
+    }
 
     return 0;
 }

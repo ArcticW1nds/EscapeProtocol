@@ -6,7 +6,7 @@ const int cols = 11;
 
 class Maze {
 public:
-    int maze1[rows][cols] = {
+    mutable int maze1[rows][cols] = {
         {1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1},
         {1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1},
         {1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1},
