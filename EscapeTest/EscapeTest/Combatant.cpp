@@ -1,9 +1,7 @@
 #include "Combatant.hpp"
-#include "JRPG.hpp"
-#include "LabRat.hpp"
-#include "Scientist.hpp"
-#include <iostream>
 
+#include <iostream>
+#include "Utilities.hpp"
 
 int Combatant::getHealth() const { return health; }
 void Combatant::takeDamage(int damage) { health -= damage; }

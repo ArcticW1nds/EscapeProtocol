@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "JRPG.hpp"
+
 #include "Scientist.hpp"
 
 Scientist::Scientist(int h, int p, int s) {

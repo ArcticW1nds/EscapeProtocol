@@ -1,7 +1,6 @@
 #ifndef SCIENTIST_HPP
 #define SCIENTIST_HPP
 
-#pragma once
 #include "Combatant.hpp"
 
 class Scientist : public Combatant {

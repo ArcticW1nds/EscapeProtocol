@@ -1,6 +1,7 @@
 #include <iostream>
 #include "LabRat.hpp"
-#include "JRPG.hpp"  // For ranNumGen and getValidatedInput
+#include "Utilities.hpp"
+
 
 LabRat::LabRat(int h, int p, int s) {
     health = h;
@@ -8,6 +9,8 @@ LabRat::LabRat(int h, int p, int s) {
     speed = s;
     dmgMult = 1.0;
     canTakeTurn = true;
+    x = 0;
+    y = 0;
 }
 
 const char* LabRat::getName() const {
@@ -61,5 +64,42 @@ void LabRat::takeTurn(Combatant* opponent) {
             std::cout << opponent->getName() << " has succumbed to the plague!\n";
             dealDamage(opponent, opponent->getHealth());
         }
+    }
+}
+
+void LabRat::findPosition(const Maze& maze) {
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < cols; ++j) {
+            if (maze.maze1[i][j] == 2) {
+                x = i;
+                y = j;
+                return;
+            }
+        }
+    }
+    std::cerr << "rat not found in maze!\n";
+}
+void LabRat::move(char direction, const Maze& maze)
+{
+    int newX = x;
+    int newY = y;
+
+    switch (direction) {
+    case 'w': newX--; break; // up
+    case 's': newX++; break; // down
+    case 'a': newY--; break; // left
+    case 'd': newY++; break; // right
+    default:
+        std::cout << "Invalid direction input. Use w/a/s/d.\n";
+        return;
+    }
+
+    if (maze.isWalkable(newX, newY)) {
+        x = newX;
+        y = newY;
+        std::cout << "Moved to (" << x << ", " << y << ")\n";
+    }
+    else {
+        std::cout << "Blocked! Can't move to (" << newX << ", " << newY << ")\n";
     }
 }

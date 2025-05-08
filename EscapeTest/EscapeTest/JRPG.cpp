@@ -6,7 +6,7 @@
 
 #include "LabRat.hpp"
 #include "Scientist.hpp"
-#include "Combatant.hpp"
+#include "Utilities.hpp"
 
 using namespace std;
 int turnOrder();//forward decleration
@@ -41,43 +41,7 @@ void Battle1v1(Combatant* c1, Combatant* c2) {
     std::cout << winner->getName() << " wins the battle!\n";
 }
 
-int getValidatedInput(int minRange, int maxRange) {
-    string input;
-    int number;
 
-    while (true) {
-        cout << "Enter a number between " << minRange << " and " << maxRange << ": ";
-        cin >> input;
-
-        // Check if all characters in input are digits
-        bool isNumber = true;
-        for (char c : input) {
-            if (!isdigit(c)) {
-                isNumber = false;
-                break;
-            }
-        }
-
-        // Convert to int and validate range
-        if (isNumber && input.length() <= 2) {
-            number = stoi(input);
-            if (number >= minRange && number <= maxRange) {
-                return number;
-            }
-        }
-
-        cout << "Invalid input. Try again.\n";
-    }
-}
-
-int ranNumGen(int minRange, int maxRange) {
-    random_device rd;
-    mt19937 gen(rd());
-
-    uniform_int_distribution<> dist(minRange, maxRange);
-    int ranNum = dist(gen);
-    return ranNum;
-}
 
 int turnOrder() {
     int turnOrder = 0;

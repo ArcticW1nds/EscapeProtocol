@@ -1,5 +1,5 @@
 #include <iostream>
-#include "maze.hpp"
+#include "Maze.hpp"
 
 bool Maze::isWalkable(int x, int y) const {
     return x >= 0 && x < rows && y >= 0 && y < cols && maze1[x][y] == 0;
@@ -16,7 +16,7 @@ void Maze::printMaze() const {
                 std::cout << " "; // Path
                 break;
             case 2:
-                std::cout << "S"; // Start
+                std::cout << "R"; //Rat
                 break;
             case 3:
                 std::cout << "E"; // Exit
