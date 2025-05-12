@@ -13,12 +13,13 @@ public:
     void move(char direction, const Maze& maze);
     void findPosition(const Maze& maze);
    // void dealDamage(Combatant* opponent, int baseDamage);
-    bool atGoal(const Maze& maze) const;
+    bool atGoal() const;
 private:
     int x;
     int y;
     bool plagueActive = false;
     int plagueCounter = 0;
+    int tileUnderneath;
 };
 
 #endif 

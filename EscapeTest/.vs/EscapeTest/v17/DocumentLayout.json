@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\EscapeTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\EscapeTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\LabRat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\EscapeTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\EscapeTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|solutionrelative:EscapeTest\\Maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADC09A1B-003B-46C4-8E08-1B7960D5C244}|EscapeTest\\EscapeTest.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Combatant.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,19 +54,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EscapeTest.cpp",
               "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\EscapeTest.cpp",
               "RelativeDocumentMoniker": "EscapeTest\\EscapeTest.cpp",
               "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\EscapeTest.cpp",
               "RelativeToolTip": "EscapeTest\\EscapeTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-07T00:25:38.11Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LabRat.hpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.hpp",
+              "RelativeDocumentMoniker": "EscapeTest\\LabRat.hpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.hpp",
+              "RelativeToolTip": "EscapeTest\\LabRat.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T00:27:31.295Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LabRat.cpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.cpp",
+              "RelativeDocumentMoniker": "EscapeTest\\LabRat.cpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.cpp",
+              "RelativeToolTip": "EscapeTest\\LabRat.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T00:26:58.95Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -76,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Maze.hpp",
               "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Maze.hpp",
               "RelativeDocumentMoniker": "EscapeTest\\Maze.hpp",
@@ -89,41 +117,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Maze.cpp",
               "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Maze.cpp",
               "RelativeDocumentMoniker": "EscapeTest\\Maze.cpp",
               "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\Maze.cpp",
               "RelativeToolTip": "EscapeTest\\Maze.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-08T14:37:26.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LabRat.hpp",
-              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.hpp",
-              "RelativeDocumentMoniker": "EscapeTest\\LabRat.hpp",
-              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.hpp",
-              "RelativeToolTip": "EscapeTest\\LabRat.hpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-07T00:27:31.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LabRat.cpp",
-              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.cpp",
-              "RelativeDocumentMoniker": "EscapeTest\\LabRat.cpp",
-              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\EscapeTest\\EscapeTest\\LabRat.cpp",
-              "RelativeToolTip": "EscapeTest\\LabRat.cpp",
-              "ViewState": "AgIAAEkAAAAAAAAAAAASwGMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-07T00:26:58.95Z",
               "EditorCaption": ""
             },
             {

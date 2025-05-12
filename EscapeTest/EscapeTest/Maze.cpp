@@ -2,7 +2,7 @@
 #include "Maze.hpp"
 
 bool Maze::isWalkable(int x, int y) const {
-    return x >= 0 && x < rows && y >= 0 && y < cols && maze1[x][y] == 0;
+    return x >= 0 && x < rows && y >= 0 && y < cols && maze1[x][y] == 0 || maze1[x][y] == 3;
 }
 
 void Maze::printMaze() const {

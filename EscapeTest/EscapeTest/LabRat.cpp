@@ -9,6 +9,7 @@ LabRat::LabRat(int h, int p, int s) {
     speed = s;
     dmgMult = 1.0;
     canTakeTurn = true;
+    int tileUnderneath;
     x = 0;
     y = 0;
 }
@@ -73,12 +74,17 @@ void LabRat::findPosition(const Maze& maze) {
             if (maze.maze1[i][j] == 2) {
                 x = i;
                 y = j;
+                tileUnderneath = 2;
                 maze.maze1[i][j] = 9;
                 return;
             }
         }
     }
     std::cerr << "rat not found in maze!\n";
+}
+bool LabRat::atGoal() const
+{
+    return tileUnderneath == 3;
 }
 void LabRat::move(char direction, const Maze& maze)
 {
@@ -95,12 +101,9 @@ void LabRat::move(char direction, const Maze& maze)
         return;
     }
 
-    bool LabRat::atGoal(const Maze & maze) const {
-        return maze.maze1[x][y] == 3;
-    }
-
     if (maze.isWalkable(newX, newY)) {
-        maze.maze1[x][y] = 0;
+        maze.maze1[x][y] = tileUnderneath;
+        tileUnderneath = maze.maze1[newX][newY];
         x = newX;
         y = newY;
         maze.maze1[x][y] = 9;

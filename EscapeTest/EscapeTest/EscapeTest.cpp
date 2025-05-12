@@ -15,6 +15,10 @@ int main() {
     while (true) {
         system("cls");
         maze.printMaze();
+        if (rat.atGoal()) {
+            std::cout << "LabRat has reached the goal!\n";
+            break;
+        }
         std::cout << "Move (w/a/s/d, q to quit): ";
         std::cin >> input;
         if (input == 'q') break;
