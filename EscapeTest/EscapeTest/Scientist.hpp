@@ -9,7 +9,6 @@ public:
 
     const char* getName() const override;
     void takeTurn(Combatant* opponent) override;
-    //void dealDamage(Combatant* opponent, int baseDamage);
 
 private:
     bool plagueActive = false;

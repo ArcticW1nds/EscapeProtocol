@@ -18,44 +18,48 @@ const char* LabRat::getName() const {
 }
 
 void LabRat::takeTurn(Combatant* opponent) {
-    if (!canTakeTurn) {
-        std::cout << "You are stunned! You lose your turn.\n";
+    int baseDamage = getPower();
+    bool check = canTurnCheck();
+    if (!check) {
+        std::cout << getName() << " is stunned and cannot take a turn!\n";
+        stunManagement();
         return;
     }
+	else {
+        std::cout << "(1) Physical Attack\n";
+        std::cout << "(2) Activate Skill\n";
+        int c2 = getValidatedInput(1, 2);
 
-    int baseDamage = getPower();
+        if (c2 == 1) {
+            std::cout << "Choose Move\n";
+            std::cout << "(1) Bite (bp-40)\n(2) Scratch (bp-10) (8x multi-hit)\n";
+            int c1 = getValidatedInput(1, 2);
 
-    std::cout << "(1) Physical Attack\n";
-    std::cout << "(2) Activate Skill\n";
-    int c2 = getValidatedInput(1, 2);
+            if (c1 == 1) {
+                std::cout << getName() << " uses Bite!\n";
+                dealDamage(opponent, baseDamage * 4);
+            }
+            else {
+                std::cout << getName() << " uses Scratch!\n";
+                multiHitAttack(opponent, baseDamage / 2, 8);
+            }
 
-    if (c2 == 1) {
-        std::cout << "Choose Move\n";
-        std::cout << "(1) Bite (bp-40)\n(2) Scratch (bp-10) (8x multi-hit)\n";
-        int c1 = getValidatedInput(1, 2);
-
-        if (c1 == 1) {
-            std::cout << getName() << " uses Bite!\n";
-            dealDamage(opponent, baseDamage * 4);
         }
         else {
-            std::cout << getName() << " uses Scratch!\n";
-            multiHitAttack(opponent, baseDamage / 2, 8);
-        }
+            std::cout << "Choose Move\n";
+            std::cout << "(1) Plague (opponent dies after 3 turns)\n(2) Bravery (1.75x dmg multiplier)\n";
+            int c3 = getValidatedInput(1, 2);
 
-    }
-    else {
-        std::cout << "Choose Move\n";
-        std::cout << "(1) Plague (opponent dies after 3 turns)\n(2) Bravery (1.75x dmg multiplier)\n";
-        int c3 = getValidatedInput(1, 2);
-
-        if (c3 == 1) {
-            plagueActive = true;
+            if (c3 == 1) {
+                plagueActive = true;
+            }
+            else {
+                setDmgMult(1.5);
+            }
         }
-        else {
-            setDmgMult(1.5);
-        }
-    }
+        stunManagement();
+	}
+    
     //at the end of your turn, regardless of stun, check if plague has been activated
     if (plagueActive == true) {
         plagueCounter++;
@@ -94,10 +98,10 @@ void LabRat::move(char direction, const Maze& maze)
         std::cout << "Invalid direction input. Use w/a/s/d.\n";
         return;
     }
-
-    bool LabRat::atGoal(const Maze & maze) const {
-        return maze.maze1[x][y] == 3;
-    }
+    //this is throwing errors
+    //bool LabRat::atGoal(const Maze & maze) const {
+    //    return maze.maze1[x][y] == 3;
+    //}
 
     if (maze.isWalkable(newX, newY)) {
         maze.maze1[x][y] = 0;

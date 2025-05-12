@@ -8,6 +8,10 @@ void Combatant::takeDamage(int damage) { health -= damage; }
 int Combatant::getPower() const { return power; }
 int Combatant::getSpeed() const { return speed; }
 
+
+int Combatant::getStunCounter() const{return stunCounter;}
+void Combatant::setStunCounter(int stun){stunCounter = stun;}
+
 double Combatant::getDmgMult() const { return dmgMult; }
 void Combatant::setDmgMult(double mult) { dmgMult = mult; }
 
@@ -40,4 +44,22 @@ void Combatant::dealDamage(Combatant* opponent, int baseDamage) {
 
     std::cout << getName() << " deals " << finalDamage << " damage!\n";
     opponent->takeDamage(finalDamage);
+}
+
+bool Combatant::canTurnCheck()
+{
+    if (stunCounter > 0) {
+        canTakeTurn = false;
+    }
+    else {
+        canTakeTurn = true;
+    }
+    return canTakeTurn;
+}
+
+void Combatant::stunManagement()
+{
+    if (stunCounter > 0) {
+        stunCounter--;
+    }
 }
