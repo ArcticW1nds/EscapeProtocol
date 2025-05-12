@@ -4,3 +4,6 @@
 *.db-wal
 *.vsidx
 *.opendb
+.vs
+x64
+EscapeTest\.vs
