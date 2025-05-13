@@ -1,5 +1,6 @@
 #include <iostream>
 #include "LabRat.hpp"
+#include "Maze.hpp"
 
 
 LabRat::LabRat(int h, int p, int s) {
@@ -67,19 +68,19 @@ void LabRat::takeTurn(Combatant* opponent) {
     }
 }
 
-void LabRat::findPosition(const Maze& maze) {
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
-            if (maze.maze1[i][j] == 2) {
-                x = i;
-                y = j;
-                tileUnderneath = 2;
-                maze.maze1[i][j] = 9;
-                return;
-            }
-        }
-    }
-    std::cerr << "rat not found in maze!\n";
+void LabRat::findPosition(const Maze& maze) {  
+   for (int i = 0; i < maze.rows; ++i) { // Use instance reference instead of Maze::rows  
+       for (int j = 0; j < maze.cols; ++j) { // Use instance reference instead of Maze::cols  
+           if (maze.maze1[i][j] == 2) {  
+               x = i;  
+               y = j;  
+               tileUnderneath = 2;  
+               maze.maze1[i][j] = 9;  
+               return;  
+           }  
+       }  
+   }  
+   std::cerr << "rat not found in maze!\n";  
 }
 bool LabRat::atGoal() const
 {
