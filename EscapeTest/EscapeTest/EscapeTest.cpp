@@ -3,6 +3,7 @@
 #include "JRPG.hpp"
 #include "Scientist.hpp"
 #include "LabRat.hpp"
+#include "Maze.hpp"
 
 int main() {
     Maze maze;
