@@ -11,6 +11,7 @@ protected:
     int critChance = 8;
     int stunCounter = 0; // Placeholder for stun counter
 
+
 public:
     virtual const char* getName() const = 0;
     virtual void takeTurn(Combatant* opponent) = 0;
@@ -25,6 +26,7 @@ public:
     int getSpeed() const;
 
     // int stunCounter() const; // Placeholder for stun counter
+
     int getStunCounter() const; // Placeholder for getting stun counter
     void setStunCounter(int stun); // Placeholder for setting stun counter
 

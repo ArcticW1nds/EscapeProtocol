@@ -71,8 +71,4 @@ void Scientist::takeTurn(Combatant* opponent) {
         }
         stunManagement();
     }
-
-
-
-
 }
