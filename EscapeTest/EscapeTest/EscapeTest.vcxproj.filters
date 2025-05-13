@@ -21,16 +21,13 @@
     <ClCompile Include="LabRat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Scientist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="JRPG.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Combatant.hpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Maze.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Combatant.cpp">
@@ -41,10 +38,13 @@
     <ClInclude Include="LabRat.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Scientist.hpp">
+    <ClInclude Include="Combatant.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="JRPG.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scientist.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Maze.hpp">

@@ -1,23 +1,11 @@
 #ifndef MAZE_HPP
 #define MAZE_HPP
 
-const int rows = 10;
-const int cols = 11;
-
 class Maze {
 public:
-    mutable int maze1[rows][cols] = {
-        {1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1},
-        {1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1},
-        {1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1},
-        {1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1},
-        {1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1},
-        {1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1},
-        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1},
-        {1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1},
-        {1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1},
-        {1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1}
-    };
+    static const int rows = 10;
+    static const int cols = 11;
+    static int maze1[rows][cols];
 
     bool isWalkable(int x, int y) const;
     void printMaze() const;

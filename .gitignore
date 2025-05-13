@@ -1,3 +1,9 @@
+*.db
+*.ipch
+*.db-shm
+*.db-wal
+*.vsidx
+*.opendb
 .vs
 x64
 EscapeTest\EscapeTest\.vs

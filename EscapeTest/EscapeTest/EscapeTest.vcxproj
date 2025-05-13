@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Combatant.cpp" />
-    <ClCompile Include="Combatant.hpp" />
     <ClCompile Include="EscapeTest.cpp" />
     <ClCompile Include="JRPG.cpp" />
     <ClCompile Include="LabRat.cpp" />
@@ -136,6 +135,7 @@
     <ClCompile Include="Scientist.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Combatant.hpp" />
     <ClInclude Include="JRPG.hpp" />
     <ClInclude Include="LabRat.hpp" />
     <ClInclude Include="Maze.hpp" />

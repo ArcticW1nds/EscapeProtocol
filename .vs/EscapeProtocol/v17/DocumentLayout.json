@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LabRat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:LabRat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\JRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:JRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\JRPG.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:JRPG.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AAF55A5-1CFB-4425-BCB8-F24CF72896DB}|EscapeProtocol.vcxproj|solutionrelative:maze.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JRPG.hpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\JRPG.hpp",
+              "RelativeDocumentMoniker": "JRPG.hpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\JRPG.hpp",
+              "RelativeToolTip": "JRPG.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T14:12:44.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LabRat.hpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.hpp",
+              "RelativeDocumentMoniker": "LabRat.hpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.hpp",
+              "RelativeToolTip": "LabRat.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T14:27:10.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LabRat.cpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.cpp",
+              "RelativeDocumentMoniker": "LabRat.cpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\LabRat.cpp",
+              "RelativeToolTip": "LabRat.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T14:11:32.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "maze.cpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.cpp",
+              "RelativeDocumentMoniker": "maze.cpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.cpp",
+              "RelativeToolTip": "maze.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T14:10:33.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T14:10:32.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JRPG.cpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\JRPG.cpp",
+              "RelativeDocumentMoniker": "JRPG.cpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\JRPG.cpp",
+              "RelativeToolTip": "JRPG.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T14:10:31.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "maze.hpp",
+              "DocumentMoniker": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.hpp",
+              "RelativeDocumentMoniker": "maze.hpp",
+              "ToolTip": "C:\\Users\\sbtyvcg\\Documents\\GitHub\\EscapeProtocol\\maze.hpp",
+              "RelativeToolTip": "maze.hpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T14:24:17.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

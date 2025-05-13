@@ -9,6 +9,7 @@ int Combatant::getPower() const { return power; }
 int Combatant::getSpeed() const { return speed; }
 
 
+
 int Combatant::getStunCounter() const{return stunCounter;}
 void Combatant::setStunCounter(int stun){stunCounter = stun;}
 
@@ -18,8 +19,8 @@ void Combatant::setDmgMult(double mult) { dmgMult = mult; }
 bool Combatant::getCanTakeTurn() const { return canTakeTurn; }
 void Combatant::setCanTakeTurn(bool value) { canTakeTurn = value; }
 
-int Combatant::getCritChance() const{return critChance;}
-void Combatant::setCritChance(int crit){critChance = crit;}
+int Combatant::getCritChance() const { return critChance; }
+void Combatant::setCritChance(int crit) { critChance = crit; }
 
 
 void Combatant::multiHitAttack(Combatant* opponent, int baseDamage, int hitCount) {
@@ -62,4 +63,5 @@ void Combatant::stunManagement()
     if (stunCounter > 0) {
         stunCounter--;
     }
+
 }
