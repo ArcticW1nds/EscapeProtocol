@@ -3,7 +3,6 @@
 
 #include "Combatant.hpp"
 #include "Maze.hpp"
-#include "Utilities.hpp"
 
 class LabRat : public Combatant {
 public:
@@ -11,16 +10,20 @@ public:
 
     const char* getName() const override;
     void takeTurn(Combatant* opponent) override;
-    void move(char direction, const Maze& maze);
-    void findPosition(const Maze& maze);
-   // void dealDamage(Combatant* opponent, int baseDamage);
+
+    void findPosition(Maze& maze);  // not const, since it modifies the maze
+    void move(char direction, Maze& maze);
     bool atGoal() const;
+    
+
 private:
-    int x;
-    int y;
+    int x, y;
+    int tileUnderneath;
     bool plagueActive = false;
     int plagueCounter = 0;
-    int tileUnderneath;
+    
+
+
 };
 
-#endif 
+#endif
