@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 #include <string>
 #include "JRPG.hpp"
 #include "Scientist.hpp"
@@ -21,29 +22,26 @@ int main() {
             break;
         }
         std::cout << "Move (w/a/s/d)\n q to quit: ";
-        std::cin >> input;
-        if (input == 'q') break;
+        char input = _getch();
+        if (input == 'q' || input == 'Q') break;
 
 		rat.move(input, maze1);
     }
 
-
-
-   // char input;
-   // rat.findPosition(maze2);
-   // while (true) {
-   //     system("cls");
-   //     maze2.printMaze();
-   //     if (rat.atGoal()) {
-   //         std::cout << "LabRat has reached the goal!\n";
-   //         break;
-   //     }
-   //     std::cout << "Move (w/a/s/d)\n q to quit: ";
-   //     std::cin >> input;
-   //     if (input == 'q') break;
-   //
-   //     rat.move(input, maze2);
-   // }
+    rat.findPosition(maze2);
+    while (true) {
+        system("cls");
+        maze2.printMaze();
+        if (rat.atGoal()) {
+            std::cout << "LabRat has reached the goal!\n";
+            break;
+        }
+        std::cout << "Move (w/a/s/d)\n q to quit: ";
+        char input = _getch();
+        if (input == 'q') break;
+   
+        rat.move(input, maze2);
+    }
    
 
     Battle1v1(&rat, &cornifer);
