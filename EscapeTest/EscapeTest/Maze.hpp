@@ -47,6 +47,7 @@ private:
     // Static maze definitions
     static const std::vector<std::vector<int>> maze1Data;
     static const std::vector<std::vector<int>> maze2Data;
+    static const std::vector<std::vector<int>> maze3Data;
 };
 
 #endif
